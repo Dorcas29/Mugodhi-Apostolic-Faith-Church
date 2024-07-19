@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mugodhi Apostolic Faith Church</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="topnav">
+            <a href="#home">Home</a>
+            <a href="#history">History</a>
+            <a href="#news">Current News</a>
+            <a href="#calendar">Church Calendar</a>
+            <a href="#contact">Contact</a>
+            <a href="#resources">Resources</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <div class="search-bar">
+                <input type="text" id="search" placeholder="Search...">
+                <button onclick="searchSite()">Search</button>
+            </div>
+            <ul class="sidebar-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#history">History</a></li>
+                <li><a href="#news">Current News</a></li>
+                <li><a href="#calendar">Church Calendar</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#resources">Resources</a></li>
+            </ul>
+        </aside>
+
+        <main>
+            <section id="home">
+                <h1>Welcome to Mugodhi Apostolic Faith Church</h1>
+                <p>RUGARE......</p>MISSION
+<p>The MAFC shall be to preach the pure Gospel of our Lord and Savior Jesus Christ to infidels and baptize the converts in the name of the Father, the Son and the Holy Spirit.
+
+<p>OBJECTIVES
+
+<p>To spread the word of God and to teach its members to obey everything that Jesus commanded (Matthew 25:29-30)
+<p>To Cast out demons or evil spirits (Mark 16:16-17)
+<p>To Pray for the sick (Jarnes 5: 13-14)
+<p>To Help the destitute, widows and helpless (Matthew 25:35-40)
+<p>To work in respect of the Government of the country (Romans 13:1-4, Peter 2: 13-17 & Mark 16:15-18)
+<p>To follow and honor what the Holy Spirit instructs and teaches to the Church.
+
+<p>HIERARCHY OF THE CHURCH
+There shall be a Bishop of the MAFC who shall be the HEAD OF THE CHURCH
+<p>Second in rank shall be the two Vice-Bishops<p>Third in rank shall be a board of Twelve Ministers
+ <p>Fourth in rank shall be a board of Elders
+<p>Fifth in rank shall be a board of Deacons
+<p>Sixth in rank shall be a board of Reverends
+<p>Seventh in rank shall be a board of Evangelists
+<p>Eighth in rank shall be a board of Parish Preachers
+<p>Ninth and last in rank shall be a board of Parish Secretaries (Ushers). Most of the top leaders had to start climbing the leadership ladder from first being anointed as Parish Secretaries.
+
+            </section>
+
+            <section id="history">
+                <h2>History</h2>
+                <p>The official name of the Church shall be Mugodhi Apostolic Faith Church referred to in abbreviation as MAFC.The headquarters of MAFC shall be c/o Matsine School P. Bag 2213 Wedza.
+</p>
+            </section>
+
+            <section id="news">
+                <h2>Current News</h2>
+                <p>Latest news and updates from the church...</p>
+            </section>
+
+            <section id="calendar">
+                <h2>Church Calendar</h2>
+                <div id="calendar-events">
+                    <ul>
+                        <li>Event 1: Date and details</li>
+                        <li>Event 2: Date and details</li>
+                        <li>Event 3: Date and details</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <form id="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+
+            <section id="resources">
+                <h2>Resources</h2>
+                <div class="resource-links">
+                    <a href="bible.pdf" download>Bible</a>
+                    <a href="hymnbook.pdf" download>Hymn Book</a>
+                </div>
+            </section>
+
+            <section id="testimony">
+                <h2>Testimonies</h2>
+                <div id="testimony-bar">
+                    <p class="testimony">"This is a testimony about the great works of the church..."</p>
+                    <p class="testimony">"Another testimony sharing experiences from the church..."</p>
+                </div>
+            </section>
+
+            <section id="video">
+                <h2>Women's Conference Video</h2>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/examplevideo" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </section>
+
+            <section id="elders">
+                <h2>Church Elders</h2>
+                <div class="gallery">
+                    <img src="elder1.jpg" alt="Elder 1" class="thumbnail" onclick="openModal();currentSlide(1)">
+                    <img src="elder2.jpg" alt="Elder 2" class="thumbnail" onclick="openModal();currentSlide(2)">
+                    <img src="elder3.jpg" alt="Elder 3" class="thumbnail" onclick="openModal();currentSlide(3)">
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; Mrs Mashawa. All rights Reserved.</p>
+    </footer>
+
+    <!-- The Modal/Lightbox -->
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 3</div>
+                <img src="elder1.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 3</div>
+                <img src="elder2.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 3</div>
+                <img src="elder3.jpg" style="width:100%">
+            </div>
+
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Caption text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

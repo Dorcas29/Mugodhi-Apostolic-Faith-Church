@@ -1,0 +1,12 @@
+{
+  "name": "mugodhi-apostolic-faith-church",
+  "version": "1.0.0",
+  "description": "MISSION The MAFC shall be to preach the pure Gospel of our Lord and Savior Jesus Christ to infidels and baptize the converts in the name of the Father, the Son and the Holy Spirit.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
